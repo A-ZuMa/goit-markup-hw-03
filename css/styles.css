@@ -1,0 +1,222 @@
+/* Main text color #434455 */
+/* Secondary text color #2E2F42 */
+/* Accent text color #F4F4FD */
+/* Main page background #FFFFFF */
+/* Box background 1 #2E2F42 */
+/* Box background 2 #E7E9FC */
+/* Box background 3 #F4F4FD */
+
+:root {
+    --main-text-color: #434455;
+    --secondary-text-color: #2E2F42;
+    --accent-text-color: #F4F4FD;
+    --box-background-accent: #F4F4FD;
+}
+
+body,
+address {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* or 150% */
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    background-color: #FFFFFF;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* Header - navigation */
+
+.link-logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5
+}
+
+.nav-pages {
+    font-family: roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--secondary-text-color);
+}
+
+.nav-menu .link:hover,
+.nav-menu .link:focus {
+    font-size: 18px;
+    color: #404bbf;
+    /* border-bottom: 1px solid #4D5AE5; */
+}
+
+.addr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+.addr:hover,
+.addr:focus {
+    color: #404bbf
+}
+
+.logo-sec-txt {
+    font-family: Raleway;
+    font-size: 18px;
+    /* line-height: 99%; */
+    color: var(--secondary-text-color);
+}
+
+/* Hero section */
+
+.title-hero {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    /* or 107% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-box {
+    background-color: var(--secondary-text-color);
+    width: 1440px;
+    /* height: 600px; */
+}
+
+/* Button on hero */
+.button-hero {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+    background-color: #404BBF
+}
+
+/****************** maine sections ********************/
+
+.main-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* or 150% */
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+.title-features,
+.title-projects {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+.title-doing,
+.title-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    /* identical to box height, or 111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+.section-team {
+    background-color: #F4F4FD;
+}
+
+.section-team .list,
+.image-box {
+    background-color: #FFFFFF;
+}
+
+/**************************** Footer section ***************************/
+
+.footer-box {
+    color: var(--accent-text-color);
+    background-color: #2E2F42;
+    width: 1440px;
+}
+
+.footer-box {
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5
+}
+
+.logo-sec-footer {
+    font-family: Raleway;
+    font-size: 18px;
+    color: var(--accent-text-color);
+}
+
+.footer-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* or 150% */
+    letter-spacing: 0.02em;
+    color: var(--accent-text-color);
+}
+
+/******************************** Portfolio page ************************************/
+.filter-btn {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background-color: var(--box-background-accent)
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
