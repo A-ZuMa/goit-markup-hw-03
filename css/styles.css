@@ -13,8 +13,7 @@
     --box-background-accent: #F4F4FD;
 }
 
-body,
-address {
+body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -46,6 +45,10 @@ address {
     color: #4D5AE5
 }
 
+.logo-sec-txt {
+    color: var(--secondary-text-color);
+}
+
 .nav-pages {
     font-family: roboto, sans-serif;
     font-style: normal;
@@ -65,6 +68,7 @@ address {
 }
 
 .addr {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -79,13 +83,6 @@ address {
     color: #404bbf
 }
 
-.logo-sec-txt {
-    font-family: Raleway;
-    font-size: 18px;
-    /* line-height: 99%; */
-    color: var(--secondary-text-color);
-}
-
 /* Hero section */
 
 .title-hero {
@@ -93,7 +90,6 @@ address {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    /* or 107% */
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -112,7 +108,6 @@ address {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    /* identical to box height, or 150% */
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
@@ -125,7 +120,7 @@ address {
     background-color: #404BBF
 }
 
-/****************** maine sections ********************/
+/****************** Maine sections ********************/
 
 .main-text {
     font-style: normal;
@@ -151,7 +146,6 @@ address {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    /* identical to box height, or 111% */
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -197,7 +191,6 @@ address {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    /* or 150% */
     letter-spacing: 0.02em;
     color: var(--accent-text-color);
 }
@@ -209,7 +202,6 @@ address {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    /* identical to box height, or 150% */
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background-color: var(--box-background-accent)
