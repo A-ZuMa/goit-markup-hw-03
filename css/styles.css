@@ -19,7 +19,6 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    /* or 150% */
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     background-color: #FFFFFF;
@@ -33,9 +32,13 @@ body {
     text-decoration: none;
 }
 
-/* Header - navigation */
+/**
+  |============================
+  | Header - navigation
+  |============================
+**/
 
-.link-logo {
+.logo-fst {
     font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -73,7 +76,6 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    /* identical to box height, or 150% */
     letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
@@ -83,7 +85,11 @@ body {
     color: #404bbf
 }
 
-/* Hero section */
+/**
+  |=================================
+  | Hero section
+  |=================================
+**/
 
 .title-hero {
     font-style: normal;
@@ -120,14 +126,17 @@ body {
     background-color: #404BBF
 }
 
-/****************** Maine sections ********************/
+/**
+  |=================================
+  | Maine sections
+  |=================================
+**/
 
 .main-text {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    /* or 150% */
     letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
@@ -161,12 +170,16 @@ body {
     background-color: #FFFFFF;
 }
 
-/**************************** Footer section ***************************/
+/**
+  |=================================
+  | Footer section
+  |=================================
+**/
 
 .footer-box {
+    width: 1440px;
     color: var(--accent-text-color);
     background-color: #2E2F42;
-    width: 1440px;
 }
 
 .footer-box {
@@ -195,7 +208,12 @@ body {
     color: var(--accent-text-color);
 }
 
-/******************************** Portfolio page ************************************/
+/**
+  |=================================
+  | Portfolio page
+  |=================================
+**/
+
 .filter-btn {
     font-family: "Roboto", sans-serif;
     font-style: normal;
