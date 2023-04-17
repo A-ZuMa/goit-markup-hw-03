@@ -25,3 +25,9 @@
 
     text-align: justify (рівномірне розподіленя тексту в блоці)
     Font family: WendyOne (BANANA c00l fonts)
+
+    display: inline-block (inline to block box)
+    vartical-align: middle (to center inline blocks in box)
+
+    margin-left: auto
+    margin-right: auto (to center BOX on page)
