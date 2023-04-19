@@ -23,6 +23,7 @@
 
 <!--  -->
 
+    outline (рамка контейнеру)
     text-align: justify (рівномірне розподіленя тексту в блоці)
     Font family: WendyOne (BANANA c00l fonts)
 
@@ -31,3 +32,11 @@
 
     margin-left: auto
     margin-right: auto (to center BOX on page)
+
+    2n+1 (even - парні)
+         (odd - непарні)
+    nth child calculator
+
+<!-- FIGMA -->
+
+    Shift+0 (Show outlines)

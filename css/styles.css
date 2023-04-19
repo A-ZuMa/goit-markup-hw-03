@@ -40,6 +40,10 @@ body {
     background-color: #FFFFFF;
 }
 
+image {
+    display: contents;
+}
+
 .list {
     padding: 0px;
     margin: 0px;
@@ -242,7 +246,11 @@ team-section>.team-title {
     background-color: #2E2F42;
 }
 
-.footer-box container {}
+.footer-text {
+    width: 264px;
+    /* margin-left: 0; */
+    /* width: 264px; */
+}
 
 .footer-box {
     font-family: Raleway, sans-serif;
@@ -258,7 +266,7 @@ team-section>.team-title {
     font-family: Raleway;
     font-size: 18px;
     color: var(--accent-text-color);
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 }
 
 .footer-text {
