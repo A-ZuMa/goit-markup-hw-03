@@ -16,6 +16,10 @@
 
     https://jigsaw.w3.org/css-validator/#validate_by_input
 
+<!-- FIGMA -->
+
+    Shift+0 (Show outlines)
+
 <!-- Figma plugins -->
 
     CSSGen (CSS, RGBA, kebab)
@@ -36,7 +40,3 @@
     2n+1 (even - парні)
          (odd - непарні)
     nth child calculator
-
-<!-- FIGMA -->
-
-    Shift+0 (Show outlines)

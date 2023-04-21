@@ -15,7 +15,9 @@
     --card-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
         0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
+
 /* Visually hidden  */
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -40,11 +42,11 @@ html {
     box-sizing: border-box;
 }
 
-*,
+/* *,
 *::before,
 *::after {
     box-sizing: inherit;
-}
+} */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -189,6 +191,7 @@ margin-top: var(--card-set-gap);
     color: #FFFFFF;
     background-color: #4D5AE5;
     border-radius: 4px;
+    padding: 16px 32px;
     /* margin-bottom: 188px; */
 }
 
@@ -214,10 +217,23 @@ margin-top: var(--card-set-gap);
 
 
 .features-section .container,
-.doing .container,
-.team-section {
+.doing .container {
     margin-bottom: 120px;
 }
+
+.subcontainer {
+    width: 264px;
+    margin: 0 auto;
+    outline: 2px solid tomato;
+
+}
+
+/* .features-section .subcontainer {
+    width: 264px;
+    margin: 0 auto;
+    outline: 2px solid tomato;
+
+} */
 
 .doing-tiltle,
 .team-title {
@@ -240,7 +256,7 @@ team-section>.team-title {
 }
 
 .team-section .list .image-link {
-    margin-bottom: 32px;
+
 }
 
 .team-section .features-title,
@@ -249,21 +265,30 @@ team-section>.team-title {
 }
 
 /**
+  |============================
+  | Out Team Section
+  |============================
+**/
+
+.team-section .container {
+    padding: 120px 0px;
+}
+
+.card-content .card-txt{
+    padding: 32px 16px;
+    outline: 2px solid tomato;
+}
+
+/**
   |=================================
   | Footer section
   |=================================
 **/
 
-.footer-box {
-    /* width: 1440px; */
-    color: var(--accent-text-color);
-    background-color: #2E2F42;
-}
-
-.footer-text {
-    width: 264px;
-    /* margin-left: 0; */
-    /* width: 264px; */
+.footer-box .container .logo {
+    text-transform: uppercase;
+    margin-bottom: 16px;
+/* outline: 2px solid tomato; */
 }
 
 .footer-box {
@@ -272,25 +297,23 @@ team-section>.team-title {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5
+    color: var(--accent-text-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #2E2F42;
 }
 
 .logo-sec-footer {
-    font-family: Raleway;
-    font-size: 18px;
     color: var(--accent-text-color);
-    margin-bottom: 20px;
 }
 
 .footer-text {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--accent-text-color);
+    width: 264px;
 }
 
 /**
