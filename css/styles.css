@@ -50,14 +50,15 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     background-color: #FFFFFF;
 }
 
-image {
-    display: contents;
+img {
+    display: block;
 }
 
 .list {
@@ -91,13 +92,21 @@ p {
     /* outline: 2px solid tomato; */
 }
 
+.flex-container {
+    display: flex;
+}
+
 /**
   |============================
   | Header - navigation
   |============================
 **/
-
+.header-container {
+    display: flex;
+    align-items: center;
+}
 .logo-fst {
+    margin-right: 76px;
     font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -111,8 +120,23 @@ p {
     color: var(--secondary-text-color);
 }
 
-.nav-pages {
+/* .nav-menu {
+    display: flex;
+    outline: 2px solid tomato;
+} */
+
+.nav-menu .item:not(:last-child),
+.addr .item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.nav-menu .link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
     font-weight: 500;
+    /* font-size: 16px; */
     color: var(--secondary-text-color);
 }
 
@@ -123,22 +147,7 @@ p {
     /* border-bottom: 1px solid #4D5AE5; */
 }
 
-.nav-menu {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    border-bottom: 2px solid tomato;
-    margin-bottom: 11px;
-    /* margin-left: calc(-1 * var(--card-set-gap)); */
-    /* margin-top: calc(-1 * var(--card-set-gap)); */
-}
-
-/* .nav-pages>.link {
-flex-basis: calc(100% / 3 - var(--card-set-gap));
-margin-left: var(--card-set-gap);
-margin-top: var(--card-set-gap);
-} */
-
-.nav-menu .addr {
+.addr .item {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -147,8 +156,15 @@ margin-top: var(--card-set-gap);
     color: var(--main-text-color);
 }
 
-.nav-menu .addr:hover,
-.nav-menu .addr:focus {
+/* .main-nav .addr {
+    display: flex;
+    margin-left: auto;
+    background-color: teal;
+    /* outline: 2px solid tomato; */
+} */
+
+.container .addr:hover,
+.container .addr:focus {
     font-size: 16px;
     color: #404bbf
 }
