@@ -115,6 +115,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-sec-txt {
@@ -123,7 +124,6 @@ p {
 
 .header-logo {
   display: inline-block;
-  margin-right: 76px;
 }
 
 .main-nav {
@@ -142,8 +142,9 @@ p {
   /* outline: 2px solid teal; */
 }
 
-.nav-menu-link .link {
+.nav-menu-link {
   font-weight: 500;
+  padding: 24px 0;
   /* font-size: 16px; */
   color: var(--secondary-text-color);
 }
@@ -156,14 +157,14 @@ p {
   /* border-bottom: 1px solid #4D5AE5; */
 }
 
-.addr {
+.address-list {
   display: flex;
   margin-left: auto;
   gap: 40px;
   /* outline: 2px solid tomato; */
 }
 
-.addr-item {
+.address-item {
   display: block;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
