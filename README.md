@@ -40,3 +40,6 @@
     2n+1 (even - парні)
          (odd - непарні)
     nth child calculator
+
+<!-- Interesting webs -->
+    codepen.io (приклади по Grid)
