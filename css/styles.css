@@ -11,6 +11,7 @@
   --secondary-text-color: #2e2f42;
   --accent-text-color: #f4f4fd;
   --hover-text-color: #404bbf;
+  --box-background-action: #e7e9fc;
   --box-background-accent: #f4f4fd;
   --card-set-gap: 20px;
   --card-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
@@ -194,14 +195,7 @@ p {
 .hero-box {
   background-color: var(--secondary-text-color);
   text-align: center;
-  /* margin-bottom: 120px; */
-}
-
-.hero-box .container {
   padding: 188px 0;
-  /* align-items: center; */
-  /* margin-bottom: 120px; */
-  /* outline: 2px solid tomato; */
 }
 
 /* Button on hero */
@@ -247,7 +241,7 @@ p {
   margin-bottom: 120px;
 } */
 
-.features-section .container {
+.features-section {
   padding: 120px 0;
 }
 
@@ -258,10 +252,7 @@ p {
 }
 
 .subcontainer {
-  width: 264px;
-  /* margin: 0 auto; */
-  /* padding-top: 120px; */
-  /* padding-bottom: 120px; */
+  width: calc((100% - 3 * 24px) / 4);
   /* outline: 2px solid tomato; */
 }
 
@@ -271,7 +262,7 @@ p {
   |============================
 **/
 
-.doing .container {
+.doing-section {
   padding-bottom: 120px;
 }
 
@@ -373,11 +364,15 @@ team-section > .team-title {
   |=================================
 **/
 
+.filters-section {
+  padding: 96px 0 120px;
+}
+
 .filters {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin-top: 96px;
+  /* margin-top: 96px; */
   margin-bottom: 72px;
 }
 
@@ -389,7 +384,8 @@ team-section > .team-title {
   color: #4d5ae5;
   background-color: var(--box-background-accent);
   padding: 12px 24px;
-  /* border-radius: 4px; */
+  border: 1px solid var(--box-background-action);
+  border-radius: 4px;
 }
 
 .filter-btn:hover,
@@ -400,10 +396,38 @@ team-section > .team-title {
 
 .cards-item {
   display: flex;
-  gap: 24px;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
-.projects-section .container {
-  margin-bottom: 72px;
+.cards-link {
+  width: calc((100% - 48px) / 3);
 }
+
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px 16px;
+  gap: 8px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.projects-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2%;
+  margin-bottom: 8px;
+}
+
+.projects-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5%;
+}
+
+/* .filters-section .container {
+  margin-bottom: 72px;
+} */
