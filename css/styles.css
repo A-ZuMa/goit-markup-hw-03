@@ -96,11 +96,15 @@ p {
   | Header - navigation
   |============================
 **/
-.header .container {
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
   display: flex;
+  align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #e7e9fc;
+  /* padding: 0 15px; */
 }
 
 .logo-fst {
@@ -122,14 +126,15 @@ p {
   margin-right: 76px;
 }
 
-.main-nav {
+/* .main-nav {
   display: flex;
   outline: 2px solid blue;
-}
+} */
 
 .nav-menu {
   display: flex;
   align-items: center;
+  margin-right: auto;
   gap: 40px;
   /* outline: 2px solid teal; */
 }
@@ -157,6 +162,7 @@ p {
 }
 
 .addr-item {
+  display: block;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -392,6 +398,7 @@ team-section > .team-title {
 .filter-btn:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .cards-item {
